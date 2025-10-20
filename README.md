@@ -11,7 +11,8 @@ A lightweight and modern web app that allows users to translate text into differ
 - Powered by Cloudflare Worker API
 
 ## Live Demo
-[View the App on Cloudflare Pages](YOUR_CLOUDFLARE_LINK)
+[View the App on Cloudflare Pages]( 
+pollyglot-translator.pages.dev)
 
 ##  Technologies Used
 - HTML5  
@@ -22,3 +23,4 @@ A lightweight and modern web app that allows users to translate text into differ
 
 ## Author
 **Marzia Hashimi**
+
