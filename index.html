@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PollyGlot - Perfect Translation Every Time</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="header-bg">
+        <h1>PollyGlot</h1>
+        <p>Perfect Translation Every Time</p>
+      </div>
+    </header>
+
+    <!-- Input Section -->
+    <section id="input-section" class="card">
+      <label for="text-input">Text to translate 👇</label>
+      <textarea id="text-input" placeholder="How are you?"></textarea>
+
+      <div class="languages">
+        <label>
+          <input type="radio" name="language" value="French">
+          <img src="https://flagcdn.com/w20/fr.png" alt="French Flag"> French
+        </label>
+        <label>
+          <input type="radio" name="language" value="Spanish">
+          <img src="https://flagcdn.com/w20/es.png" alt="Spanish Flag"> Spanish
+        </label>
+        <label>
+          <input type="radio" name="language" value="Japanese">
+          <img src="https://flagcdn.com/w20/jp.png" alt="Japanese Flag"> Japanese
+        </label>
+      </div>
+
+      <div class="controls">
+        <button id="translate-btn">Translate</button>
+        <span id="loading" class="hidden">Translating…</span>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results-section" class="card hidden">
+      <p><strong>Original text 👇</strong></p>
+      <p id="original-text"></p>
+
+      <p><strong>Your translation 👇</strong></p>
+      <p id="translated-text"></p>
+
+      <div class="controls">
+        <button id="start-over-btn">Start Over</button>
+      </div>
+      
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
